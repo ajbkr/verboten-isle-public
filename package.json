@@ -1,0 +1,16 @@
+{
+  "name": "verboten-isle-public",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Andrew J. Baker <andrew_j_baker2@hotmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
