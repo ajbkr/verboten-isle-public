@@ -5,15 +5,37 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimal-ui, viewport-fit=cover">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="format-detection" content="telephone=no">
+    <style>
+body, html {
+  background: #000;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+#canvas {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#container {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+    </style>
     <title>Verboten Isle</title>
-    <script type="module" crossorigin src="./assets/index-BEhp18qo.js"></script>
+    <script type="module" crossorigin src="./assets/index-Eirp51-Z.js"></script>
   </head>
   <body>
-    <h1>
-      Verboten Isle
-    </h1>
-    <canvas width="640" height="480">
-      <p>ENOCANVAS!</p>
-    </canvas>
+    <div id="container">
+      <canvas id="canvas">
+        <p>ENOCANVAS!</p>
+      </canvas>
+    </div>
   </body>
 </html>
